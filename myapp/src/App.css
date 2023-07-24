@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #080202;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.title{
+  color: #73BBC9;
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+}
+
+.quote{
+  color: #F1D4E5;
+  font-family: "Playfair Display", serif;
+  padding: 20px 2px 20px 2px;
+  border: 1px solid #73BBC9; 
+  border-radius: 1.2rem;
+ 
+}
+
+.author{
+  color: #F1D4E5;
+  font-style: italic;
+  font-family: "Playfair Display", serif;
+
+}
+
+
+/* CSS for the beautiful button */
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #080202;
+  transition: background-color 0.3s ease;
+  background-image: linear-gradient(to right,  #F1D4E5, #73BBC9);
+}
+
+.button:hover {
+  background-image: linear-gradient(to right, #73BBC9, #F1D4E5);
+}
+
+.button {
+  display: inline-block; 
+  text-decoration: none;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
